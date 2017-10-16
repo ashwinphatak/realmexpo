@@ -4,6 +4,8 @@ import { AppLoading, Asset, Font } from 'expo';
 import { Ionicons } from '@expo/vector-icons';
 import RootNavigation from './navigation/RootNavigation';
 
+import Realm from 'realm';
+
 export default class App extends React.Component {
   state = {
     isLoadingComplete: false,
