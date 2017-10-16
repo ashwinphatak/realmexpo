@@ -17,11 +17,21 @@
       "icon": "./assets/icons/loading-icon.png"
     },
     "packagerOpts": {
-      "assetExts": ["ttf"]
+      "assetExts": [
+        "ttf"
+      ]
     },
     "ios": {
       "bundleIdentifier": "com.sk3vy.new-project-template",
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.ashwinphatak.realmexpo"
+    },
+    "isDetached": true,
+    "detach": {
+      "scheme": "expd8881ee4aff1460e81fb524dae640a5d",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v1.20.0-sdk21.0.0-38791499-fe99-4600-950d-cf7e2e85cea9.tar.gz"
     }
   }
 }
